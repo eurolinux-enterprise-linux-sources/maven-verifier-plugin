@@ -1,6 +1,6 @@
 Name:           maven-verifier-plugin
 Version:        1.0
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Maven Verifier Plugin
 
 Group:          Development/Libraries
@@ -76,9 +76,6 @@ cp -pr target/site/api*/* %{buildroot}%{_javadocdir}/%{name}/
 %{_javadocdir}/%{name}
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.0-10
-- Mass rebuild 2013-12-27
-
 * Thu Nov  7 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.0-9
 - Remove legacy Maven macros
 
